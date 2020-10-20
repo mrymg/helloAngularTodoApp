@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   user = 'YMG';
+  items = [
+    {description: "Kahvaltı", action: "No"},
+    {description: "Spor", action: "No"},
+    {description: "Fatura", action: "No"}
+  ];
 }

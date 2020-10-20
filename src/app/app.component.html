@@ -19,9 +19,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td> Kahvaltı</td><td>NO</td></tr>
-          <tr><td> Spor</td><td>NO</td></tr>
-          <tr><td> Fatura</td><td>NO</td></tr>
+          <tr *ngFor="let i of items">
+            <td>{{i.description}}</td>
+            <td>{{i.action}}</td>
+          </tr>
+
         </tbody>
       </table>
   </div>
